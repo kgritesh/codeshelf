@@ -1,0 +1,42 @@
+languageCode = "en-us"
+title = "CodeShelf"
+baseURL = "https://kgritesh.github.io"
+theme = "hyde-x"
+paginate = 10
+
+[permalinks]
+    post = "/blog/:title/"
+
+[author]
+    name = "CodeShelf"
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+	library = "libraries"
+
+
+[params]
+	truncate = true
+
+	defaultDescription = "OSS Demystified / Current Projects/ More About me"
+
+    defaultKeywords = "oss,ritesh,"
+
+	customCss="/css/custom.css"
+
+	tagline="Delving under the hood of OSS"
+
+	home = "Home"
+
+	theme = "theme-base-0d"
+
+	gravatarHash = "4686324f6ceba8c4b48d5f204d6cb434"
+
+	disqusShortname = "codeshelf"
+
+	github = "https://github.com/kgritesh"
+	linkedin = "https://www.linkedin.com/in/riteshkadmawala/"
+	twitter = "https://twitter.com/krg85"
+
